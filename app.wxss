@@ -1,0 +1,56 @@
+
+image {
+  vertical-align: middle;
+}
+
+/* 小程中 wxss 所引用的资源（字体、图片等）不允许是本地路径 */
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('static/fonts/icomoon.eot?b420xo');
+  src:  url('static/fonts/icomoon.eot?b420xo#iefix') format('embedded-opentype'),
+    url('static/fonts/icomoon.ttf?b420xo') format('truetype'),
+    url('static/fonts/icomoon.woff?b420xo') format('woff'),
+    url('static/fonts/icomoon.svg?b420xo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit:before {
+  content: "\e900";
+}
+.icon-share:before {
+  content: "\e901";
+}
+.icon-time:before {
+  content: "\e902";
+}
+.icon-preview:before {
+  content: "\e903";
+}
+.icon-add:before {
+  content: "\e904";
+}
+
+.box {
+  width: 300rpx;
+  height: 300rpx;
+  border: 1rpx solid red;
+  background-image: url('static/images/icon.png');
+}
